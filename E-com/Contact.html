@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Fashion Store</title>
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    
+    <script>
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+    </script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Fashion Store</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Page Hero Section -->
+    <section class="contact-hero">
+        <div class="hero-content">
+            <h1>Let's Connect</h1>
+            <p>We're here to help and answer any questions you might have about our collections.</p>
+            <div class="hero-buttons">
+                <a href="#contact-form" class="btn-primary">Send a Message</a>
+                <a href="#contact-info" class="btn-secondary">Contact Info</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="../img/img_2.jpg" alt="Fashion Store Hero Image">
+        </div>
+    </section>
+
+    <!-- Contact Options Section -->
+    <section class="contact-options">
+        <div class="option-card">
+            <div class="icon-circle">
+                <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>Call Us</h3>
+            <p>Monday to Friday, 9am to 6pm</p>
+            <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+        </div>
+        
+        <div class="option-card">
+            <div class="icon-circle">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Us</h3>
+            <p>We'll respond within 24 hours</p>
+            <a href="mailto:info@fashionstore.com" class="contact-link">info@fashionstore.com</a>
+        </div>
+        
+        <div class="option-card">
+            <div class="icon-circle">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Visit Us</h3>
+            <p>Our flagship store in downtown</p>
+            <a href="https://maps.google.com" target="_blank" rel="noopener" class="contact-link">123 Fashion Ave, Style City</a>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section" id="contact-form">
+        <div class="form-container">
+            <h2>Send Us a Message</h2>
+            <p>Have questions about our collections or need styling advice? Fill out the form below.</p>
+            
+            <form class="fashion-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="">Select a topic</option>
+                        <option value="order">Order Inquiry</option>
+                        <option value="return">Returns & Exchanges</option>
+                        <option value="product">Product Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+        
+        <div class="form-image">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Fashion Consultant">
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">
+                    What's your return policy?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>We offer a 30-day return policy for unworn items with original tags attached. Simply contact us to initiate your return.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    How long does shipping take?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Standard shipping takes 3-5 business days. Express options are available at checkout for faster delivery.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do you offer international shipping?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes! We ship worldwide. Shipping costs and delivery times vary by destination.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I get styling advice?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Absolutely! Our style consultants are available by appointment in-store or via video call.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Location Section -->
+    <section class="store-location" id="contact-info">
+        <div class="location-info">
+            <h2>Our Flagship Store</h2>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>123 Fashion Avenue<br>Style City, SC 10001</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <p>Monday - Friday: 10am - 8pm<br>
+                   Saturday: 10am - 9pm<br>
+                   Sunday: 11am - 6pm</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone-alt"></i>
+                <p>+1 (234) 567-8900</p>
+            </div>
+            <a href="https://maps.google.com" target="_blank" rel="noopener" class="map-btn">
+                <i class="fas fa-directions"></i> Get Directions
+            </a>
+        </div>
+        <div class="location-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573291234!2d-73.9878449241642!3d40.74844097138962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689877235834!5m2!1sen!2sus" allowfullscreen="" title="Map showing the location of the Empire State Building"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="animate">
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-cta">
+                    <h2>Ready to Elevate Your Style?</h2>
+                    <p>Join our fashion community for exclusive offers and style inspiration</p>
+                    <div class="cta-wrapper">
+                        <a href="Product.html" class="btns">Shop Now</a>
+                        <a href="#newsletter" class="btns secondary">Sign Up</a>
+                    </div>
+                </div>
+                
+                <div class="newsletter">
+                    <h3>Get Style Updates</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">→</button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-paypal"></i>
+            </div>
+            <p>© 2023 Fashion Store. All rights reserved. <a href="#">Privacy</a> | <a href="#">Terms</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // FAQ functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                question.classList.toggle('active');
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
